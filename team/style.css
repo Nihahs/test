@@ -1,0 +1,56 @@
+/*
+Theme Name: Sight
+Author URI: http://www.wpshower.com
+Description: Sight is a powerful Wordpress theme, best suited for Magazines and Blogs. The theme was designed in modern minimalistic style with Golden Grid usage.
+Author: WPSHOWER
+Version: 1.0
+License: GNU/GPL Version 2 or later. http://www.gnu.org/licenses/gpl.html
+Copyright: (c) 2010 WPSHOWER
+*/
+
+/*** Reset ***/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1;text-align:left;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+:focus {outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/*** Main ***/
+
+.clear:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.left {float: left;}
+.right {float: right;}
+
+.wrapper {width: 975px; background: #FFFFFF; margin: 0 auto;}
+#container {padding: 30px 0 45px;}
+
+
+/*** Slideshow ***/
+
+#slideshow, .slideshow {height: 600px; width: 975px; overflow: hidden; position: relative;}
+.slide {height: 600px; width: 975px; background-color:#FFFFFF;}
+.slide img {display: block; float: left; height: 270px; width: 640px; position: relative; top: -20px; left: -30px;}
+.slide .post {padding: 20px 30px 0;}
+.slide .post-category {font-size: 11px; color: #d9d9d9; text-transform: uppercase; margin-bottom: 5px;}
+.slide .post a {color: #000;}
+.slide .post .post-category a {text-decoration: none;}
+.slide .post .post-category a:hover {text-decoration: underline;}
+.slide .post h2 {margin-bottom: 5px;}
+.slide .post h2, .slide .post h2 a {color: #000; font-size: 24px; font-weight: normal; text-decoration: none;}
+.slide .post h2 a:hover {text-decoration: underline;}
+.slide .post .post-meta {font-size: 11px; font-style: italic; color: #656363; margin-bottom: 20px;}
+.slide .post .post-meta span, .slide .post .post-meta a {color: #000; text-decoration: none; font-family: Helvetica, Arial, sans-serif; font-style: normal;}
+.slide .post .post-meta a:hover {text-decoration: underline;}
+.slide .post .post-author {text-transform: uppercase;}
+.slide .post-content p {margin-bottom: 15px;}
+#larr, #rarr {display: block; width: 50px; height: 53px; position: absolute; top: 300px !important; opacity: 0.5; z-index: 99 !important;}
+#larr {background: url(larr.png) 10px 100% no-repeat; left: 0 !important;}
+#rarr {background: url(rarr.png)  11px 50% no-repeat; right: 0 !important;}
+#larr:hover, #rarr:hover {opacity: 1;}
+
+\

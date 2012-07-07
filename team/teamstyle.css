@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  text-align: center;  /* MSIE 5 doesn't center based on auto left/right margins, 
+                          but 'text-align:center' does center top-level divs: */
+  min-width: 1000px;
+  background-color:#0000FF;
+      /* Specify a min-width for the body as wide as the 'wrapper'
+                           element itself. This prevents negative (i.e. inaccessible)
+                           left-margins in narrow browser windows when using 
+                           Navigator 6+/Mozilla on Win32: */
+}
+#main {
+  text-align: left;    /* Reset alignment to compensate for 'text-align:center': */
+  width: 1000px;        /* Specify the width of the element. This should be the same
+                          as 'body min-width': */
+  margin-left: auto;   /* Set left and right margins to auto, thus centering the 
+                          element in the containing (body) tag: */
+  margin-right: auto;
+}
+
+.side
+{
+	float:left;
+	width:10%;
+	height:10px;
+}
+
+#logo
+{
+	background-image:url(logo1.png);
+	background-repeat:no-repeat;
+		width:154px;
+	height:34px;
+
+}
+#menuu1
+{
+	background-image:url(sympo.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:43px;
+}
+
+#menuu1:hover
+{
+	background-image:url(sympohover.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:43px;
+}
+
+#menuu2
+{
+	background-image:url(workshops.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:43px;
+}
+
+#menuu2:hover
+{
+	background-image:url(workhover.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:43px;
+}
+
+#menuu3
+{
+	background-image:url(conference.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:43px;
+}
+
+#menuu3:hover
+{
+	background-image:url(conhover.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:43px;
+}
+
+#menuu4
+{
+	background-image:url(culturals.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:43px;
+}
+
+#menuu4:hover
+{
+	background-image:url(culthover.png);
+	background-repeat:no-repeat;
+	width:154px;
+	height:43px;
+}
+
+
+#menu
+{		
+	background-repeat: repeat-x;	
+	height:21px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#F0F;
+	position:relative;	
+}
+
+
+
+#main ul
+{
+	text-align:center;
+}
+	
+#header
+{
+	height:46px;
+	width:100%;
+	padding-top:14px;
+	margin-bottom:-14px;
+	background-repeat: repeat-x;
+	position:relative;
+	float:none;
+}
+#header li.n
+{
+
+	
+}
+
+#tp{
+  position:relative;   /*Panel will overlap  content */
+    top: 0;
+	alignment-adjust:baseline;
+	text-align: center;
+    z-index: 999;
+	width:1000px;
+
+}
+#panel
+{
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+	display: none;
+	background-image:url(bar.png);
+	background-repeat:no-repeat;
+	margin-top:5px;
+	margin-left:189px;
+	margin-bottom:10px;
+	height:40px;
+	font:"Courier New", Courier, monospace;
+	font-size:28px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+#header ul  {   
+	width:70em;
+	margin:auto;
+}  
+#header li {   
+	float: left;
+	font-family: Garamond;
+	font-size:20px;
+	padding-left:35px;
+	color:#0000FF;
+	list-style: none;
+	cursor: help;
+	}  
